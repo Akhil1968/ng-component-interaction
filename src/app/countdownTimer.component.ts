@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'countdown-timer',
-  template: '<h2>{{message}}</h2>'
+  template: '<h3>{{message}}</h3>'
 })
 export class CountdownTimerComponent implements OnInit, OnDestroy {
 

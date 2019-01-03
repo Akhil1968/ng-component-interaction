@@ -10,6 +10,8 @@ import {CountdownParentComponent} from './countdownParent.component';
 import {CountdownTimerComponent} from './countdownTimer.component';
 import { HeadlessCounter } from './headlessCounter';
 import { HeadlessCounterParent } from './headlessCounterParent';
+import { EventEmitterParentComponent } from './eventemitterParent';
+import { EventEmitterChildComponent } from './eventemitterChild';
 @NgModule({
   declarations: [
     AppComponent, 
@@ -18,7 +20,9 @@ import { HeadlessCounterParent } from './headlessCounterParent';
     CountdownParentComponent,
     CountdownTimerComponent,
     HeadlessCounter,
-    HeadlessCounterParent
+    HeadlessCounterParent,
+    EventEmitterParentComponent,
+    EventEmitterChildComponent
   ],
   imports: [
     BrowserModule,
